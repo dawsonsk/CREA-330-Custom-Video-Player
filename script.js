@@ -84,10 +84,10 @@
     // Sync the video's current time to the progress bar's value
     video.currentTime = location;
 
-    // The line above triggers a `timeupdate` event which will invoke the `updateProgress` function
   }
 
    
    progress.addEventListener('input', setVideoProgress);
 
+   
 
